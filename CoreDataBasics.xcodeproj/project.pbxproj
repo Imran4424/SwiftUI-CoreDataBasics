@@ -12,6 +12,7 @@
 		1D3074B52ABAB61000ED9C18 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1D3074B42ABAB61000ED9C18 /* Assets.xcassets */; };
 		1D3074B82ABAB61000ED9C18 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1D3074B72ABAB61000ED9C18 /* Preview Assets.xcassets */; };
 		1D4D3BF92ABABBD90032BA9F /* StudentData.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 1D4D3BF72ABABBD90032BA9F /* StudentData.xcdatamodeld */; };
+		1D4D3BFB2ABABCEF0032BA9F /* DataController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D4D3BFA2ABABCEF0032BA9F /* DataController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -21,6 +22,7 @@
 		1D3074B42ABAB61000ED9C18 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1D3074B72ABAB61000ED9C18 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		1D4D3BF82ABABBD90032BA9F /* StudentData.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = StudentData.xcdatamodel; sourceTree = "<group>"; };
+		1D4D3BFA2ABABCEF0032BA9F /* DataController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,6 +57,7 @@
 			children = (
 				1D4D3BF72ABABBD90032BA9F /* StudentData.xcdatamodeld */,
 				1D3074B02ABAB60F00ED9C18 /* CoreDataBasicsApp.swift */,
+				1D4D3BFA2ABABCEF0032BA9F /* DataController.swift */,
 				1D3074B22ABAB60F00ED9C18 /* ContentView.swift */,
 				1D3074B42ABAB61000ED9C18 /* Assets.xcassets */,
 				1D3074B62ABAB61000ED9C18 /* Preview Content */,
@@ -141,6 +144,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				1D3074B32ABAB60F00ED9C18 /* ContentView.swift in Sources */,
+				1D4D3BFB2ABABCEF0032BA9F /* DataController.swift in Sources */,
 				1D3074B12ABAB60F00ED9C18 /* CoreDataBasicsApp.swift in Sources */,
 				1D4D3BF92ABABBD90032BA9F /* StudentData.xcdatamodeld in Sources */,
 			);
